@@ -1,0 +1,6 @@
+export { ProjectsPage } from './ProjectsPage'
+export { AssetsPage } from './AssetsPage'
+export { ScenesPage } from './ScenesPage'
+export { GlobalsPage } from './GlobalsPage'
+export { SettingsPage } from './SettingsPage'
+export { InfoPage } from './InfoPage'

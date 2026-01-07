@@ -1,0 +1,15 @@
+# docker-compose.yml
+name: continuum
+
+services:
+  continuum:
+    container_name: backend
+    image: continuum-backend
+    build: .
+    ports:
+      - "80:80"
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - DATABASE_URL=sqlite:////app/data/continuum.db
